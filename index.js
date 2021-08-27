@@ -43,3 +43,52 @@ console.log(powerCalc(3, 1))
 console.log(powerCalc(10, 3))
 console.log(powerCalc(2, 3))
 console.log(powerCalc(3, 0))
+
+// maze[0][1]; // ' '
+//position = [0,0];
+//baseCase = [4,6];
+//position[arg1] [arg2] === 'e'
+let directions = ''; // eventually it will be 'RRRDDLLDDRRRRRRR';
+
+// directions = 'R'
+// directions = 'RR'
+// drections = ??
+
+
+let maze = [
+    [' ', ' ', ' ', '*', ' ', ' ', ' '],
+    ['*', '*', ' ', '*', ' ', '*', ' '],
+    [' ', ' ', ' ', ' ', ' ', ' ', ' '],
+    [' ', '*', '*', '*', '*', '*', ' '],
+    [' ', ' ', ' ', ' ', ' ', ' ', 'e']
+];
+
+function func(arg1, arg2, directions) {
+    // base case
+    if (maze[arg1][arg2] === 'e') {
+        return directions;
+    }
+
+    // move right
+    // if moving right is possible
+    // and our last move was not moving left
+    if ( undefined !== maze[arg1][arg2 + 1] && maze[arg1] [arg2 + 1] === ' ' && 
+    directions.charAt(directions.length - 1) !== "L") {
+        return func(arg1, arg2 + 1, directions + "R");
+    }
+
+    // move down
+    // if moving down is possible
+    // and our last move was not moving up
+    //   return func(arg + 1, arg2, directions + "D");
+
+    // move left
+    // if moving left is possible
+    // and our last move was not moving right
+
+    // move up
+    // if moving up is possible
+    // and our last move was not moving down
+
+    return directions
+}

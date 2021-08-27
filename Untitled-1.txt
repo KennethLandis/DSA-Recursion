@@ -1,0 +1,37 @@
+Notes:
+
+front end:
+Html, css, python, javascript, c#, React, 
+
+back end:
+SQL, postgrsql, express, node.js relational database. Json
+
+intrests:
+
+Youtube, google cloud, search, machine learning, stadia
+
+cracking the coding interview
+
+Communication with the engineer.  Vague questions = wanting to see how you approach the problem.
+
+Coding for speed and clean as well as efficiency.
+
+research testing code on google doc.
+
+Datastructure choice and edge case testing.  Discuss brute force into refining if this approach
+is your approach with engineer.
+
+recruiter after whiteboarding.  onsite interviews occur
+
+5 interview all virtual atm.
+leadership interview is behavioral.
+
+domain focus depending on the product.
+
+team matching is speaking to hiring managers and looking for a good fit.
+
+After matching offer is sent for negotiation.
+
+First interview scheduled based on materials.
+
+Early Career is starting.
